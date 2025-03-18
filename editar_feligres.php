@@ -98,7 +98,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <input type="number"
                                        name="ci" 
                                        class="form-control"
-                                       value="<?= htmlspecialchars($f['ci'] ?? '') ?>">
+                                       value="<?= htmlspecialchars($feligres['ci'] ?? '') ?>">
                             </div>
                         </div>
                         
