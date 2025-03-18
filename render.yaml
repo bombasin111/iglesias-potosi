@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: app_iglesias_sucre
+    runtime: php
+    buildCommand: ""  # No necesitas un comando de compilación
+    startCommand: ""  # Render usa Apache por defecto para PHP
+    envVars:
+      - key: DB_HOST
+        value: dpg-cv1ok2d6l47c73fi3rn0-a.oregon-postgres.render.com
+      - key: DB_NAME
+        value: iglesias_localidad_0nd1
+      - key: DB_USER
+        value: bombasin111
+      - key: DB_PASSWORD
+        value: LOGlCiLdaP9T6a5O8PN3QM6A9Er7xul3
